@@ -1,10 +1,13 @@
-<script setup lang="ts">
+<script setup>
 import JsComponent from './JsComponent.vue'
 import TsComponent from './TsComponent.vue'
 
-defineProps<{
-  msg: string
-}>()
+defineProps({
+  msg: {
+    type: String,
+    default: 'Hello Vite + Vue 3 + TypeScript + VLS!',
+  },
+})
 </script>
 
 <template>

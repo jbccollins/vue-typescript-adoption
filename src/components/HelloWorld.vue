@@ -1,4 +1,7 @@
 <script setup lang="ts">
+import JsComponent from './JsComponent.vue'
+import TsComponent from './TsComponent.vue'
+
 defineProps<{
   msg: string
 }>()
@@ -11,6 +14,8 @@ defineProps<{
       You’ve successfully created a project with
       <a href="https://vite.dev/" target="_blank" rel="noopener">Vite</a> +
       <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>. What's next?
+      <TsComponent label="Hello World" :count="0" />
+      <JsComponent label="Hello World" :count="0" />
     </h3>
   </div>
 </template>

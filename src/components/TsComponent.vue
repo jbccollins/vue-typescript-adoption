@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { add, greet } from '@/helpers/js-helpers.js'
-import { multiply, greetPerson } from '@/helpers/ts-helpers.js'
-import { multiplyByTwo } from '@/helpers/js-importing-ts.js'
+import { add, greet } from '@/helpers/js-helpers'
+import { multiply, greetPerson } from '@/helpers/ts-helpers'
+import { multiplyByTwo } from '@/helpers/js-importing-ts'
 import { add2 } from '@/helpers/ts-importing-js'
 
 interface Props {
